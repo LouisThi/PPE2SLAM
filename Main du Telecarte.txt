@@ -1,0 +1,42 @@
+package telecarte;
+
+import java.util.Scanner;
+
+public class TelecarteUtilise {
+    public static void main(String[] args) {
+        Scanner lc = new Scanner (System.in);
+        Telecarte maTelecarte = new Telecarte ();
+        
+        maTelecarte.debiterUniter(1);
+        System.out.println (maTelecarte.getUniter());
+        
+        Telecarte telecarteEmprunter = new Telecarte ();
+        
+        int emprun = maTelecarte.getUniter() ;
+        telecarteEmprunter.creer(emprun);
+        telecarteEmprunter.debiterUniter (46);
+        
+        
+        telecarteEmprunter.afficherUniter();
+        maTelecarte.afficherUniter ();
+        
+        
+        Telecarte taTelecarte = new Telecarte ();
+        int tatelec = telecarteEmprunter.getUniter() ;
+        taTelecarte.creer(tatelec);
+        
+        
+        telecarteEmprunter.debiterUniter (2);
+        maTelecarte.debiterUniter(2);
+        
+        
+        maTelecarte.afficherUniter ();
+        telecarteEmprunter.afficherUniter ();
+        taTelecarte.afficherUniter();
+                
+                
+        
+        
+    }
+    
+}
