@@ -7,14 +7,21 @@
   <body>
   	<h1> CASHCASH </h1>
   	<p> </p>
-  	<table>
-  		<tr>
-  			<td><label> Identifiant </label></td>  <td> <input type="text" name="pseudo"> </td>
-  		</tr>
-  		<tr>
-  			<td><label> Mot de passe </label></td>  <td><input type="text" name="mdp"> </td>
-  		</tr>
-      <input type="button" value="Connexion">
-    </table>
+  	<form method="post" action="traitement.php">
+
+  		<fieldset>
+  			<table>
+  				<tr>
+  					<td><label for="pseudo"> Identifiant </label></td>  <td> <input type="text" name="pseudo" id="pseudo"> </td>
+  				</tr>
+  				<tr>
+  					<td><label for="mdp"> Mot de passe </label></td>  <td><input type="password" name="mdp" id="mdp"> </td>
+  				</tr>
+    		</table>
+
+    	<input type="submit" value="Connexion"> 
+  		</fieldset>
+  		
+	</form>
   </body>
 </html>
