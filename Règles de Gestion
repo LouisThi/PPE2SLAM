@@ -1,0 +1,13 @@
+Règles de Gestion :
+
+RG 1 : La société vend des terminaux à des hypermarchés, supermarchés et petits commerçants.
+RG 2 : Elle compte de nombreux sites en France, et dispose d'un SI composé de plateformes hétérogèns construit sur un réseau IP.
+RG3 : Les TPV sont de deux types : Les peites caisses autonomes, destinées aux petits commerçants, et les caisses bâties sur des processeurs intel atom, reliées à un serveur via un réseau. Ces caisses peuvent aussi travailler de façon autonome.
+RG 4 : Des périphériques sont connectés à ces machines, tels que les lecteurs optiques pour lire les codes à barres des produits, les lecteurs de cartes bancaires, et les modems permettant de se cnnecter aux cnetres de gestion des cartes bleues.
+RG 5 : Un matériel est identifié par son numéro de série, et caractérisé par la date de sa vente, la date de son installation, son prix de vente et son emplacement dans le magasin du client.
+RG 6 : Chaque matériel appartient à un et un seul type, caractérisé par une référence interne et le libellé du type.
+RG 7 : Le client peut souscrire un contrat de maintenance pour la totalité ou une partie des matériels acquis de cette société.
+RG 8 : Chaque type de matériel est rattaché à une famille de produits. une famille de produits est identifiée par le code de la famille et possède un libellé.
+RG 9 : Un client est identifié par son numéro et se caractérise par sa raison sociale, son numéro de SIREN, son code APE, son adresse postale, un numéro de téléphone, et un numéro de téélcopie. Certains cleints ont également une adresse de courrier électronique.
+RG 10 : Tous les contrats de maintenance sont repérés par un numéro de contrat et mentionnent la date de signature et la daté d'échéance. Un contrat couvre un ou plusieurs matériels achetés.
+RG 11 : Tout matériel est garanti pendant un an à compter de sa date d'installation chez le client. A la fin de la période de garantie, le client peut souscrire un contrat de maintenance pour ce matériel, s'il ne l'a pas encore fait, ou demande à l'inclure dans le contrat existant sans modification de la date d'échéance initialement prévu
