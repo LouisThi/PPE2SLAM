@@ -1,0 +1,58 @@
+label
+{
+	color: none;
+}
+h1
+{
+	color: #FE2E2E;
+}
+
+body{
+
+	background-repeat:no-repeat;
+	background-color:none;
+
+}
+
+.Accueil{
+	color: red ;
+}
+
+
+#Onglets
+{
+        position : absolute;
+        border : 1px solid transparent;
+        padding : 0;
+        font : bold 12px Batang, arial, serif;
+        list-style-type : none;
+        left : 52%;
+        margin-top : 0;
+        width : 430px;
+        margin-left : -215px; /* la moitié de width */
+        display: flex;
+}
+
+#Onglets li
+{
+    float : left;
+    height : 21px; /* à modifier suivant la taille de la police pour centrer le texte dans l'onglet */
+    background-color: none;
+    margin : 3px 3px 0 3px !important;  /* Pour les navigateurs autre que IE */
+    margin : 3px 3px 0 3px;  /* Pour IE  */
+    border : 1px solid orange;
+}
+
+#Onglets a
+{
+    display : block;
+    color : #666;
+    text-decoration : none;
+
+}
+
+#menu
+{
+    border-bottom : 1px solid #9EA0A1;
+    padding-bottom : 25px;
+}
